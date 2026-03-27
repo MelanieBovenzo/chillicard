@@ -22,9 +22,6 @@ body {
     height: 100%;
     width: 100%;
     background-color: var(--color-grey-900);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-top: 5%;
 }
 .container {
@@ -35,7 +32,7 @@ body {
     text-align: center;
     border-radius: 4%;
     padding: var(--spacing-20);
-    
+    margin: auto;
 }
 h1 {
     color: var(--color-dark-orange);
@@ -59,10 +56,16 @@ li {
     margin-block: var(--spacing-10);
     padding: 5px;
     border-radius: 15px;
+    transition: 0.5s;
+}
+li:hover {
+    background-color: var(--color-bright-orange);
 }
 a {
     color: var(--color-white);
     text-decoration: none;
+    width: 100%;
+    display: block;
 }
 img {
     border-radius: 50%;
